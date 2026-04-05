@@ -80,3 +80,4 @@ A real-time 3D web viewer for Roblox games. Renders game worlds in the browser u
 - **InstancedMesh batching** — group identical parts into single draw calls for massive FPS gains at high part counts
 - **Terrain voxel rendering** — render actual terrain geometry (grass, rock, water) instead of just a bounding box
 - **Time of Day sync** — match the game's lighting and sun position in the browser
+- **WebSocket transport** — replace HTTP polling from the executor with a persistent WebSocket connection for lower latency and less overhead; fall back to HTTP requests automatically if the executor doesn't support WebSockets
