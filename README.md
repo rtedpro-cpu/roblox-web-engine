@@ -2,6 +2,15 @@
 
 A real-time 3D web viewer for Roblox games. Renders game worlds in the browser using Three.js by streaming data from a Roblox executor (Xeno) through a local Node.js server.
 
+## Table of Contents
+
+- [How It Works](#how-it-works)
+- [Features](#features)
+- [Setup](#setup)
+- [Requirements](#requirements)
+- [Releases](#releases)
+- [Screenshots](#screenshots)
+
 ## How It Works
 
 1. **Lua Scanner** (`lua/scanner.lua`) runs in a Roblox executor (Xeno), scans the game world and streams part data, player info, chat, and more to a local server
