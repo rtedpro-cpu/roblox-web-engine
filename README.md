@@ -10,6 +10,7 @@ A real-time 3D web viewer for Roblox games. Renders game worlds in the browser u
 - [Requirements](#requirements)
 - [Releases](#releases)
 - [Screenshots](#screenshots)
+- [Future Updates](#future-updates)
 
 ## How It Works
 
@@ -69,3 +70,13 @@ A real-time 3D web viewer for Roblox games. Renders game worlds in the browser u
 
 **Just a Rope Bridge (v2)**
 ![Rope Bridge](screenshots/rope-bridge.png)
+
+## Future Updates
+
+- **WebGPU renderer** — migrate from WebGL 1/2 to WebGPU for significantly better performance and modern GPU features
+- **Proper mesh rendering** — load and render actual MeshPart geometry (cars, furniture, custom models) instead of bounding boxes
+- **Decal/texture rendering** — display images on part faces (signs, logos, floor markings)
+- **Player clothing** — fetch and render shirt/pants textures on player bodies
+- **InstancedMesh batching** — group identical parts into single draw calls for massive FPS gains at high part counts
+- **Terrain voxel rendering** — render actual terrain geometry (grass, rock, water) instead of just a bounding box
+- **Time of Day sync** — match the game's lighting and sun position in the browser
